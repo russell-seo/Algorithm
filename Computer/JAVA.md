@@ -36,9 +36,15 @@
   - Native Method Stack Area
   - PC Register
 
+![image](https://user-images.githubusercontent.com/79154652/142319803-cde439fe-5e01-45be-9a19-0e761d4527d3.png)
+
+![image](https://user-images.githubusercontent.com/79154652/142320030-69df5ee1-e3ec-4c73-b290-0e099d18710a.png)
+
+
+
   #### 메소드 영역(Class Area, Method Area)
   
-  - 메소드 영역, 즉 여기는 플래스 파일의 바이트 코드가 로드되는 곳.
+  - 메소드 영역, 즉 여기는 클래스 파일의 바이트 코드가 로드되는 곳.
     
     JVM이 뭔가를 실행하려면 먼저 그 바이트코드 들이 메모리 공간에 저장이 되어야 한다.
     JVM은 메인 메소드를 호출하는 것으로 시작 한다, 거기서 부터 프로그램의 시작이라고 할 수 있다.
@@ -62,3 +68,12 @@
     5. 클래스 변수를 만들라는 명령어가 있으면 메소드 영역에 그 변수를 준비한다.
     6. 클래스 블록이 있으면 순서대로 그 블록을 실행한다.
     7. 이렇게 한번 클래스의 바이트코드가 로딩되면 JVM이 종료될때까지 유지된다.
+
+
+  #### Stack Area
+  
+   - 흔히 말하는 call stack이 이 영역에서 다뤄지는 내용이다.
+   - stack에서 선언된 지역변수는 stack에 위치한다.
+   - primitive는 stack 영역에 저장되고 reference는 참조값만 저장된다.
+   - 외부의 stack frame 에서는 내부 stack frame 변수 접근이 불가능하지만 내부에서 외부로는 가능하다.
+   -  
