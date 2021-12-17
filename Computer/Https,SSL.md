@@ -19,5 +19,12 @@
   같은 말이다. 네스케이프에 의해서 SSL이 발명되었고, 이것이 점차 폭넓게 사용되다가 표준화 기구인 IETF의 관리로 변경되면서 TLS라는 이름으로
   바뀌었다. TLS 1.0은 SSL 3.0을 계승한다. 하지만 TLS라는 이름보다 SSL이라는 이름이 훨씬 많이 사용 된다.
   
+  `네임서버란?`
   
+   도메인에 해당하는 IP를 알려주는 서비스
+  
+  <p align = "center">
+  <img src ="https://s3.ap-northeast-2.amazonaws.com/opentutorials-user-file/module/121/298.png" width = "500" height = "400"/>
+  </p>
 
+  위 그림과 같이 흔히 www.naver.com 이라고 요청을 하면 네임서버에서 해당되는 IP주소를 반환해주고 그 IP주소로 Redirect 하게 된다.
