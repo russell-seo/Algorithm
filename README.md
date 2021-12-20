@@ -5,3 +5,4 @@
   #### [JAVA 메모리 구조](https://github.com/russell-seo/CS/blob/main/Computer/JAVA.md)
   #### [운영체제](https://github.com/russell-seo/CS/blob/main/Computer/OperationSystem.md)
   #### [HTTPS와 SSL]()
+  #### [바이너리(Binary)]()
