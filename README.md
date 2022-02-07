@@ -6,4 +6,4 @@
   #### [운영체제](https://github.com/russell-seo/CS/blob/main/Computer/OperationSystem.md)
   #### [HTTPS와 SSL](https://github.com/russell-seo/CS/blob/main/Computer/Https%2CSSL.md)
   #### [바이너리(Binary)](https://github.com/russell-seo/CS/blob/main/Computer/Binary.md)
-  #### [SWAP]()
+  #### [SWAP](https://github.com/russell-seo/CS/blob/main/Computer/Swap.md)
