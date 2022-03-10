@@ -8,4 +8,4 @@
   #### [바이너리(Binary)](https://github.com/russell-seo/CS/blob/main/Computer/Binary.md)
   #### [SWAP](https://github.com/russell-seo/CS/blob/main/Computer/Swap.md)
   #### [JAVA 유료 논쟁 관련 블로그](https://mine-it-record.tistory.com/7)
-  #### [CORS]()
+  #### [CORS(Cross-Origin Resource Sharing)](https://github.com/russell-seo/CS/blob/main/Computer/CORS.md)
