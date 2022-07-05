@@ -10,4 +10,4 @@
   #### [SWAP](https://github.com/russell-seo/CS/blob/main/Computer/Swap.md)
   #### [JAVA 유료 논쟁 관련 블로그](https://mine-it-record.tistory.com/7)
   #### [CORS(Cross-Origin Resource Sharing)](https://github.com/russell-seo/CS/blob/main/Computer/CORS.md)
-  #### [웹소켓 vs HTTP통신]()
+  #### [웹소켓 vs HTTP통신](https://github.com/russell-seo/CS/blob/main/Computer/socket.md)
