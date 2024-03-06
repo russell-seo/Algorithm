@@ -3,3 +3,4 @@
 
 [가중치 랜덤 알고리즘](https://github.com/russell-seo/Algorithm/blob/main/random.md)
 
+[선택 정렬]
