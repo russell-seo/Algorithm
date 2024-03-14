@@ -5,4 +5,4 @@
 
 [정렬 알고리즘]()
 
-[이분 탐색]()
+[이분 탐색](https://github.com/russell-seo/Algorithm/blob/main/chapter/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89.md)
