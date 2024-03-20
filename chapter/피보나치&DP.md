@@ -30,6 +30,54 @@ public int pibonaci(int n){
 
 ~~~
 
+하지만 피보나치 수열은 n의 수가 커질수록 엄청 느리며 시간복잡도는 O(2^n) 이다.
+
+그렇기에 DP(Dynamic Programming)을 사용하여 TOP-DOWN, BOTTOM-UP 두가지 방식을 사용한다.
 
 
+## DP
 
+DP(Dynamic Programming)은 복잡한 문제를 간단한 여러 개의 문제로 나누어 푸는 방법을 말한다.
+
+DP는 큰문제를 작은 문제로 분할 가능해야 하며, 작은 문제에서 구한 정답이 그것을 포함하는 큰 문제에서도 동일해야 한다.
+
+위의 피보나치 수열을 DP로 풀어볼려고 한다.
+
+TOP-DOWN
+
+~~~java
+
+int[] dps = new int[100];
+
+int DP(int n){
+        if(n == 1) return 1;
+
+        if(n == 2) return 2;
+
+        if(dps[n] != 0){
+            return dps[n];
+        }
+        
+        return dps[n] = DP(n-2) + DP(n-1);
+    }
+
+~~~
+
+BOTTOM-UP
+
+~~~
+int [] dps = new int[100];
+
+int DP(int n){
+  dps[0] = 1;
+  dps[1] = 2;
+
+  for(int i=2; i<n; i++){
+    dp[i] = dp[n-1] + dp[n-2];
+  }
+
+  return dps[n-1];
+
+}
+
+~~~
