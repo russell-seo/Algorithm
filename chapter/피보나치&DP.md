@@ -18,4 +18,18 @@
 > 즉 n번째 항은 n-1 번째 항과 n-2번째 항을 더한 값이 된다.
 
 
+즉 피보나치 수열은 재귀함수로 나타낼 수 있으며 아래 코드와 같이 표현된다.
+
+~~~java
+
+public int pibonaci(int n){
+  if(n==1) return 1;
+  else if(n==2) return 1;
+  else return pibonaci(n-2) + pibonaci(n-1); 
+}
+
+~~~
+
+
+
 
