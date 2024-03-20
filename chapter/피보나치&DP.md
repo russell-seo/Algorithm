@@ -65,7 +65,7 @@ int DP(int n){
 
 BOTTOM-UP
 
-~~~
+~~~java
 int [] dps = new int[100];
 
 int DP(int n){
